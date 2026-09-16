@@ -1,4 +1,4 @@
-# 🇮🇳 Indian ID Validation Form
+ ID Validator
 
 A web-based form that validates **Indian Mobile Number, PAN Card Number, and Aadhaar Number** using **HTML, CSS, and JavaScript**.
 
