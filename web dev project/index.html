@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Indian ID Validation</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>ID Validator</h2>
+
+        <form id="validationForm" novalidate>
+
+            <!-- MOBILE -->
+            <div class="form-group">
+
+                <label for="mobile">Mobile Number</label>
+
+                <div class="mobile-box">
+                    <span class="country-code">+91</span>
+
+                    <input
+                        type="tel"
+                        id="mobile"
+                        maxlength="10"
+                        inputmode="numeric"
+                        autocomplete="tel"
+                        placeholder="Enter 10-digit number"
+                    >
+                </div>
+
+                <small id="mobileError" class="error"></small>
+
+            </div>
+
+
+            <!-- PAN -->
+            <div class="form-group">
+
+                <label for="pan">PAN Card Number</label>
+
+                <input
+                    type="text"
+                    id="pan"
+                    maxlength="10"
+                    placeholder="ABCDE1234F"
+                    autocomplete="off"
+                >
+
+                <small id="panError" class="error"></small>
+
+            </div>
+
+
+            <!-- AADHAAR -->
+            <div class="form-group">
+
+                <label for="aadhaar">Aadhaar Number</label>
+
+                <input
+                    type="text"
+                    id="aadhaar"
+                    maxlength="12"
+                    inputmode="numeric"
+                    placeholder="Enter 12-digit Aadhaar"
+                    autocomplete="off"
+                >
+
+                <small id="aadhaarError" class="error"></small>
+
+            </div>
+
+
+            <button type="submit">
+                Validate Details
+            </button>
+
+            <div id="successMessage" class="success"></div>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
