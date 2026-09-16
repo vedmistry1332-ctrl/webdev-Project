@@ -256,8 +256,6 @@ Improved responsive design
 
 Your Name
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/vedmistry1332-ctrl
 
-📄 License
 
-This project is intended for educational and demonstration purposes.
